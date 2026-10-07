@@ -14,6 +14,10 @@ The texture files used in this program are the property of **Mojang Studios / Mi
 
 This program is an unofficial fan tool and is **not affiliated with Mojang Studios or Microsoft**.
 
+## The Use of AI
+
+The pan and rotate mechanics of 3D view is achieved through ChatGPT.
+
 ## Dependencies
 
 - Windows 10 and above
