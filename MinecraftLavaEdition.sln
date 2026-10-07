@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftLavaEdition", "MinecraftLavaEdition\MinecraftLavaEdition.csproj", "{75A88573-35DC-4AA2-8528-D428A7772323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75A88573-35DC-4AA2-8528-D428A7772323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A88573-35DC-4AA2-8528-D428A7772323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A88573-35DC-4AA2-8528-D428A7772323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A88573-35DC-4AA2-8528-D428A7772323}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {172CBD8E-C214-4C8A-B10C-E3922E62E768}
+	EndGlobalSection
+EndGlobal
