@@ -147,6 +147,7 @@
             MinimumSize = new Size(670, 490);
             Name = "Form3D";
             Text = "三维视图";
+            Load += Form3D_Load;
             ((System.ComponentModel.ISupportInitialize)pic3D).EndInit();
             ((System.ComponentModel.ISupportInitialize)trkRange).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxL).EndInit();

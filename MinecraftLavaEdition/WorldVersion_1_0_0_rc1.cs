@@ -13,7 +13,7 @@ namespace MinecraftLavaEdition
 
         public WorldVersion_1_0_0_rc1()
         {
-            VersionName = "1.0.0-rc1 ~ 至晚1.8";
+            VersionName = "1.0.0-rc1 ~ 13w17a(1.6)";
         }
 
         public override void UpdateTick(

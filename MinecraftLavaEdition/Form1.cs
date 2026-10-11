@@ -109,7 +109,7 @@ namespace MinecraftLavaEdition
             txtSeed.Enabled = useSeed;
             lblSeed.Enabled = useSeed;
 
-            bool allowNether = name.Contains("Alpha") || name.Contains("1.0.0") || name.Contains("1.8") || name.Contains("1.13") || name.Contains("Mod");
+            bool allowNether = name.Contains("Alpha") || name.Contains("1.0.0") || name.Contains("1.6") || name.Contains("1.13") || name.Contains("Mod");
             chkNether.Enabled = allowNether;
         }
 

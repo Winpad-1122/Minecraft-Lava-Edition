@@ -7,7 +7,7 @@ namespace MinecraftLavaEdition
     {
         public WorldVersion_1_8()
         {
-            VersionName = "至晚1.8 ~ 18w10b(1.13)";
+            VersionName = "13w18a(1.6) ~ 18w10b(1.13)";
         }
     }
 }

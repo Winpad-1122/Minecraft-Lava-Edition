@@ -460,5 +460,10 @@ namespace MinecraftLavaEdition
                     p1.Y + (float)Math.Sin(a2) * arrowSize);
             }
         }
+
+        private void Form3D_Load(object sender, EventArgs e)
+        {
+            this.ShowInTaskbar = false;
+        }
     }
 }
