@@ -277,59 +277,58 @@ namespace MinecraftLavaEdition
 
         private void 输出结果ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (formInitvar != null && !formInitvar.IsDisposed)
+            if (formResult != null && !formResult.IsDisposed)
             {
-                formInitvar.Activate();
-                formInitvar.BringToFront();
+                formResult.Activate();
+                formResult.BringToFront();
                 return;
             }
             formResult = new FormResult();
-            formResult.Show(this);
             formResult.StartPosition = FormStartPosition.Manual;
             formResult.Location = new Point(this.Right - 285, this.Bottom - 5);
+            formResult.Show(this);
         }
 
         private void 详情信息ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (formInitvar != null && !formInitvar.IsDisposed)
+            if (formInfo != null && !formInfo.IsDisposed)
             {
-                formInitvar.Activate();
-                formInitvar.BringToFront();
+                formInfo.Activate();
+                formInfo.BringToFront();
                 return;
             }
             formInfo = new FormInfo();
-            formInfo.Show(this);
             formInfo.StartPosition = FormStartPosition.Manual;
             formInfo.Location = new Point(this.Right - 1425, this.Bottom + 480);
+            formInfo.Show(this); 
         }
 
         private void 平面视图ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (formInitvar != null && !formInitvar.IsDisposed)
+            if (formDisplay != null && !formDisplay.IsDisposed)
             {
-                formInitvar.Activate();
-                formInitvar.BringToFront();
+                formDisplay.Activate();
+                formDisplay.BringToFront();
                 return;
             }
             formDisplay = new FormDisplay();
-            formDisplay.Show(this);
             formDisplay.StartPosition = FormStartPosition.Manual;
             formDisplay.Location = new Point(this.Right - 765, this.Bottom - 5);
+            formDisplay.Show(this);
         }
 
         private void 三维视图ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (formInitvar != null && !formInitvar.IsDisposed)
+            if (form3D != null && !form3D.IsDisposed)
             {
-                formInitvar.Activate();
-                formInitvar.BringToFront();
+                form3D.Activate();
+                form3D.BringToFront();
                 return;
-                form3D = new Form3D();
-                form3D.Show(this);
-                form3D.StartPosition = FormStartPosition.Manual;
-                form3D.Location = new Point(this.Right - 1425, this.Bottom - 5);
             }
-
+            form3D = new Form3D();
+            form3D.StartPosition = FormStartPosition.Manual;
+            form3D.Location = new Point(this.Right - 1425, this.Bottom - 5);
+            form3D.Show(this);
         }
 
     }
